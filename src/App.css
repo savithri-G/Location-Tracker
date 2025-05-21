@@ -1,38 +1,61 @@
-.App {
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0dbdb;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #22265a;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  font-weight: 800;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background-color: #92aab3;
+  color: rgb(2, 15, 59);
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button:hover {
+  background-color:  rgb(2, 15, 59);
+  color: #ffffff;
+}
+
+.coordinates {
+  margin-top: 20px;
+  color: #363030;
+  font-style: italic;
+  font-size: 18px;
+  
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.animation-container {
+  margin-top: 0px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
