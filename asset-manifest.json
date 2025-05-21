@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Location-Tracker/static/css/main.244d5554.css",
+    "main.js": "/Location-Tracker/static/js/main.d7ad7d87.js",
+    "static/js/453.3224d3ae.chunk.js": "/Location-Tracker/static/js/453.3224d3ae.chunk.js",
+    "index.html": "/Location-Tracker/index.html",
+    "main.244d5554.css.map": "/Location-Tracker/static/css/main.244d5554.css.map",
+    "main.d7ad7d87.js.map": "/Location-Tracker/static/js/main.d7ad7d87.js.map",
+    "453.3224d3ae.chunk.js.map": "/Location-Tracker/static/js/453.3224d3ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.244d5554.css",
+    "static/js/main.d7ad7d87.js"
+  ]
+}
